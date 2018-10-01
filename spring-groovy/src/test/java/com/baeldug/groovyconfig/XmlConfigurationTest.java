@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class XmlConfigurationUnitTest {
+public class XmlConfigurationTest {
        
     @Test
     public void whenXmlConfig_thenCorrectPerson() {

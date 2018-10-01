@@ -6,7 +6,7 @@ import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.*;
 
-public class UserServiceLiveTest {
+public class UserServiceTest {
     @Test
     public void whenAddUser_thenGetUserOk() {
         RestAssured.baseURI = "http://localhost:8080/rest-server";

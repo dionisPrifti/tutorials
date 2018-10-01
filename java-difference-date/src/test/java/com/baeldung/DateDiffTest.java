@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class DateDiffUnitTest {
+public class DateDiffTest {
     @Test
     public void givenTwoDatesBeforeJava8_whenDifferentiating_thenWeGetSix() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH);

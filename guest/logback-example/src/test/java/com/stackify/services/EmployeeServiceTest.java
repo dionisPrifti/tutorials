@@ -9,7 +9,7 @@ import com.stackify.models.Employee;
 
 import ch.qos.logback.classic.Level;
 
-public class EmployeeServiceUnitTest {
+public class EmployeeServiceTest {
     private static final Logger logger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
 
     private EmployeeService employeeService = new EmployeeService();

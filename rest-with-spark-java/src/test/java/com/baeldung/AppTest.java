@@ -16,16 +16,16 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class AppLiveTest extends TestCase {
+public class AppTest extends TestCase {
 
 	ObjectMapper mapper = new ObjectMapper();
 
-    public AppLiveTest( String testName ) {
+    public AppTest( String testName ) {
         super( testName );
     }
 
     public static Test suite() {
-        return new TestSuite( AppLiveTest.class );
+        return new TestSuite( AppTest.class );
     }
 
     public void testApp() throws IOException, ClassNotFoundException {
